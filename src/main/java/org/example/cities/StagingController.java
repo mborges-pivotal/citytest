@@ -9,6 +9,6 @@ public class StagingController {
     @RequestMapping("/")
     public String index() {
         String timestamp = System.getProperty("staging.timestamp");
-        return "Application was staged at: fix timestamp null ->" + timestamp;
+        return "Application was staged at: fix timestamp null 2 ->" + timestamp;
     }
 }
